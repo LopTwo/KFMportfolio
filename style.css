@@ -1,0 +1,105 @@
+
+
+html,body {
+    height: 100%;
+    background-color: rgb(79, 82, 81);
+    scroll-behavior: smooth;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.header {
+    background-color: rgb(rgb(141, 36, 240));
+}
+
+
+.profile {
+    height: 240px;
+    width: 240px;
+}
+
+.navbar-text {
+ padding: 25px;
+}
+
+.bg-light {
+height: 80px;
+}
+
+.img-thumbnail {
+    border: 20px;
+}
+
+#projectContainer {
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+margin: auto;
+width: 70%;
+margin-top: 10%;
+}
+
+.container {
+    padding: 100px;
+}
+
+.footer {  
+    color:white;
+  }
+
+  .project {
+      display: flex;
+      flex-direction:  column;
+      align-items: center;
+  }
+
+  .myFooter {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #f8f9fa;
+      height: 40px;
+  }
+
+  .portfolioTitle {
+      text-align: center;
+      padding: 20px;
+      font-size: 100px;
+  }
+
+  .imgTxt {
+      font-size: 25px;
+      text-decoration-color: rgb(141, 36, 240);
+  }
+
+.github {
+    list-style-image: url("../images/github.png");
+}
+
+.linked {
+    list-style-image: url("../images/linkedin.png");
+}
+
+.list {
+    display: table;
+    margin: 0 auto;
+}
+
+.connectFont {
+    font-size: 30px;
+}
+
+.lead {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+  /* .jumbotron {
+      background-color: #f8f9fa;
+  } */
+
+  /* .button {
+     
+  } */
